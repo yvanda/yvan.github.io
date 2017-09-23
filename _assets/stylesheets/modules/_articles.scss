@@ -61,16 +61,17 @@
       opacity: 0;
       transition: opacity $base-transition-speed linear;
     }
+
+    &:hover {
+      color: #75C0FF;
+    }
+
     &:hover .icon {
       opacity: 0;
     }
   }
   a {
     text-decoration: none;
-  }
-
-  a:hover {
-    color: #75C0FF;
   }
 
   p {
