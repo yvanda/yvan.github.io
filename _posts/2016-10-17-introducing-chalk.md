@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Introducing chalk"
-description: "Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll."
+title: "chalk 详细介绍"
+description: "Chalk 是一个高质量，易操作，支持高度自定义的，执行率100%的 Jekyll 模板。 "
 thumb_image: "documentation/sample-image.jpg"
 tags: [web, jekyll]
 ---
