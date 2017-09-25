@@ -178,9 +178,8 @@
     margin-bottom: 0;
     vertical-align: middle;
   }
-  ul {
+  ul ol {
     padding-left: 0px;
-    list-style-type: none;
 
     li:before {
       position: relative;
@@ -189,6 +188,9 @@
       left: 0;
       font-weight: 600;
     }
+  }
+  ul {
+    list-style-type: none;
   }
   a {
     text-decoration: none;
