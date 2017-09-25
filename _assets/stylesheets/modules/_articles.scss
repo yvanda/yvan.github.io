@@ -178,8 +178,9 @@
     margin-bottom: 0;
     vertical-align: middle;
   }
-  ul ol {
+  ul {
     padding-left: 0px;
+    list-style-type: none;
 
     li:before {
       position: relative;
@@ -189,8 +190,16 @@
       font-weight: 600;
     }
   }
-  ul {
-    list-style-type: none;
+  ol {
+    padding-left: 0px;
+
+    li:before {
+      position: relative;
+      content: " · ";
+      margin: 0 8px 0 0px;
+      left: 0;
+      font-weight: 600;
+    }
   }
   a {
     text-decoration: none;
