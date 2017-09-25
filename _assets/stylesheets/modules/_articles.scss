@@ -180,10 +180,10 @@
   }
   a {
     text-decoration: none;
-    color: lighten(#75C0FF, 50);
+    color: #75C0FF;
   }
   a:hover {
-    color: #75C0FF;
+    color: $base-accent-highlighted-color;
   }
 }
 
