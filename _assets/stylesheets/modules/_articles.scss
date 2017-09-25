@@ -178,6 +178,17 @@
     margin-bottom: 0;
     vertical-align: middle;
   }
+  ul {
+    padding-left: 15px;
+    list-style-type: none;
+
+    li:before {
+      position: absolute;
+      content: " · ";
+      margin: 0;
+      left: 0;
+    }
+  }
   a {
     text-decoration: none;
     color: #75C0FF;
