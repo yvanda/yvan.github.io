@@ -8,10 +8,11 @@ description: "A blog created by Yvan. Post the codeing and life things."
   {% for post in paginator.posts %}
     <li class="article-list-item {% if site.scrollappear_enabled %}appear{% endif %}">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-        <h5>
+        <!-- <h5>
           {{ post.title }}
           <span class="icon icon-arrow-right"></span>
-        </h5>
+        </h5> -->
+        {{ post.title }}
       </a>
       <p>{{ post.description }}</p>
       <div class="article-list-footer">
