@@ -7,7 +7,8 @@ layout: default
     {% for post in site.tags[page.slug] %}
       <li class="article-list-item {% if site.scrollappear_enabled %}appear{% endif %}">
         <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-          <h5>{{ post.title }}</h5>
+          <!-- <h5>{{ post.title }}</h5> -->
+          {{ post.title }}
         </a>
         <p>{{ post.description }}</p>
         <div class="article-list-footer">
