@@ -178,6 +178,13 @@
     margin-bottom: 0;
     vertical-align: middle;
   }
+  a {
+    text-decoration: none;
+    color: lighten(#75C0FF, 50);
+  }
+  a:hover {
+    color: #75C0FF;
+  }
 }
 
 .article-comments {
