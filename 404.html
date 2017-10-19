@@ -1,8 +1,3 @@
----
-permalink: /404.html
-sitemap: false
----
-
 <!doctype html>
 <!-- <html lang="en"> -->
 <html>
@@ -12,30 +7,28 @@ sitemap: false
   <title>404 Shit!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% if site.local_fonts %}
-    {% include stylesheet.html path="fonts" %}
-  {% endif %}
+  
+    <link rel="stylesheet" href="/assets/fonts.css">
 
-  {% if site.blog_theme == "light" %}
-    {% stylesheet notfound-light %}
-    {% include stylesheet.html path="notfound-light" %}
-  {% else %}
-    {% include stylesheet.html path="notfound-dark" %}
-  {% endif %}
+  
+
+  
+    <link type="text/css" rel="stylesheet" href="/assets/notfound-light.css">
+    <link rel="stylesheet" href="/assets/notfound-light.css">
+
+  
 </head>
 <body>
   <main class="notfound-wrapper">
     <div class="notfound-content">
-      <!-- <h1><a href="{{ '/' | relative_url }}" title="Back to homepage">{{ site.name }}</a></h1> -->
+      <!-- <h1><a href="/" title="Back to homepage">Yvan</a></h1> -->
       <h1>404</h1>
       <p>
-        Looks like you got lost. Let's get you back to the <a href="{{ '/' | relative_url }}">Blog</a>, or back to <a href="http://yvans.me">@Yvan</a>.
+        Looks like you got lost. Let's get you back to the <a href="/">Blog</a>, or back to <a href="http://yvans.me">@Yvan</a>.
       </p>
     </div>
   </main>
 
-  {% unless site.local_fonts %}
-    {% include javascript.html path="webfonts" %}
-  {% endunless %}
+  
 </body>
 </html>
